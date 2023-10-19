@@ -21,17 +21,17 @@ public class Project1 {
 						System.out.println("collect your Rs." + Amount);
 						System.out.println("Do you want to continue(yes/no)");
 						x = scan.next();
-						System.out.println("thank you");	
+						System.out.println("thank you");
 					}
 				}
 			else {
 				System.out.println("Invalid pasword");
-			}if(i==2) {
+			}
+			if (i == 2) {
 				System.out.println("Account is locked");
-			}else {
+			} else {
 				break;
 			}
-
 		}
 	}
 }
