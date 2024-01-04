@@ -2,14 +2,9 @@ package Array;
 
 public class ARRAY_1 {
 	public static void main(String[] args) {
-		int[] x = new int[3];
-		x[0]=10;
-		x[1]=20;
-		x[2]=30;
-		System.out.println(x.length);
-		for (int i = 0; i < x.length; i++) {
-			System.out.println(x[i]);
-		}
+		int[] x = {1,2,3,4,5,6,7};
+		System.out.println(x.length-1);
+		System.out.println(x.length-4);
 				
 	}
 }
